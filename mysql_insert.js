@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
 connection.connect() ;
 
 //执行查询
-connection.query("insert userinfo (id ,name) values ('003','yicj03') ", function (err,info) {
+connection.query("insert userinfo (name,addr) values ('yicj','henan') ", function (err,info) {
     if(err) throw err ;
     console.info('----------------------------------') ;
     console.info('受影响的行数 : ' + info.affectedRows) ;

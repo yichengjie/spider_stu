@@ -1,0 +1,29 @@
+{
+  "name": "spider_stu",
+  "version": "1.0.0",
+  "description": "net spider demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichengjie/spider_stu.git"
+  },
+  "keywords": [
+    "net",
+    "spider"
+  ],
+  "author": "yicj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yichengjie/spider_stu/issues"
+  },
+  "homepage": "https://github.com/yichengjie/spider_stu#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "request": "^2.72.0"
+  }
+}
