@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/yichengjie/spider_stu#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.5",
     "cheerio": "^0.20.0",
+    "debug": "^2.2.0",
     "express": "^4.13.4",
     "mysql": "^2.10.2",
     "request": "^2.72.0"
