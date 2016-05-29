@@ -25,9 +25,6 @@ request(requestUrl, function (err, res) {
         } ;
         //从url中取出分类的id//articlelist_1776757314_0_1
         var s = item.url.match(/articlelist_\d+_(\d+)_\d\.html/) ;
-        console.info('------------------------------') ;
-        console.info(s) ;
-        console.info('------------------------------') ;
         if(Array.isArray(s)){
             item.id = s[1] ;
         }
