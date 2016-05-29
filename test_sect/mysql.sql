@@ -3,3 +3,5 @@ create table userinfo (
        name VARCHAR(15) NOT NULL ,
        addr  VARCHAR(20)
 ) default charset = utf8 ;
+
+
